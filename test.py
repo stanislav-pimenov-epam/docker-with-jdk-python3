@@ -14,8 +14,8 @@ setup_logging()
 logger = logging.getLogger(__name__)
 
 
-def getTestPlanFromS3Bucket():
-  logger.info('Getting JMX!')
+def testLogger():
+  logger.info('Your first logger message!')
 
 
-getTestPlanFromS3Bucket()
+testLogger()
